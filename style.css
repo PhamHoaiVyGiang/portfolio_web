@@ -1,0 +1,52 @@
+*{
+    margin :0;
+    padding:0;
+    font-family:"Inter",sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.layout-container{
+    display:flex;
+    position: relative;
+    min-height:100hv;
+    background: #F0F0F6;
+}
+.sidebar{
+    width :305px;
+    background:#FFF;
+    padding:40px;
+}
+.main-content
+{
+    display:flex;
+    flex:1;
+}
+.right-nav{
+    display:flex;
+    width:108px;
+    min-height: 100vh;
+    background:#FFF;
+    flex-shrink:0;
+    flex-direction:colum;
+    justify-content: center;
+
+}
+
+.profile-card{
+    display: flex;
+    flex-direction:colum;
+    gap: 25px;
+}
+.profile-name{
+    display:flex;
+    justify-content: center;
+    color:#2B2B2B;
+    font-family:Inter;
+    font-size:10px;
+    font-style:normal;
+    font-weight:500;
+    line-height:123.6%;
+    text-transform: capitalize ;
+}
